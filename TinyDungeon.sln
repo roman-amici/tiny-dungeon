@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "game", "game\game.csproj", "{05C461BA-AB0E-4964-8CED-8A60DC8E2E05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyEngine", "tiny-engine\engine\TinyEngine.csproj", "{6D73FF8E-828F-4267-B50D-1EF9AA82B1FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05C461BA-AB0E-4964-8CED-8A60DC8E2E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C461BA-AB0E-4964-8CED-8A60DC8E2E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C461BA-AB0E-4964-8CED-8A60DC8E2E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C461BA-AB0E-4964-8CED-8A60DC8E2E05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D73FF8E-828F-4267-B50D-1EF9AA82B1FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D73FF8E-828F-4267-B50D-1EF9AA82B1FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D73FF8E-828F-4267-B50D-1EF9AA82B1FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D73FF8E-828F-4267-B50D-1EF9AA82B1FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D73FF8E-828F-4267-B50D-1EF9AA82B1FD} = {5F219ACA-50AC-47CE-BCCC-E5F2731C7D96}
+	EndGlobalSection
+EndGlobal
